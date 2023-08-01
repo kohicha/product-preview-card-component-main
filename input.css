@@ -1,0 +1,15 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+
+@font-face {
+    font-family: Fraunces;
+    src: url("design\Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf") format("truetype");
+  }
+  @font-face {
+    font-family: Montserrat;
+    src: url("design\Montserrat-VariableFont_wght.ttf") format("truetype");
+  }

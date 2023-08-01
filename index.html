@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="min-h-screen sm:grid place-content-center bg-[#F2EBE3]">
+  <main>
+    <div class="sm:grid sm:grid-cols-2">
+      <div class="max-w-sm">
+        <picture>
+          <source media="(min-width: 640px)" srcset="images\image-product-desktop.jpg">
+          <img src="images\image-product-mobile.jpg" alt="producct" class="sm:rounded-l-2xl">
+        </picture>
+      </div>
+      <div class="bg-white p-12 text-start max-w-sm sm:rounded-r-2xl flex flex-col gap-6 ">
+        <p class="tracking-[.4rem] font-Montserrat text-[#6C7289]">
+          PERFUME
+        </p>
+        
+        <p class="font-Fraunces text-5xl font-bold text-[#1C232B]">
+          Gabrielle Essence Eau De Parfum
+        </p>
+        
+        <p class="font-Montserrat text-base text-[#6C7289]">
+          A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.
+        </p>
+        
+          <p class="font-Fraunces text-5xl font-bold text-[#3C8067] flex items-center gap-4">
+            $149.99
+            <span class="font-Montserrat line-through font-medium text-base text-[#6C7289]">
+              $169.99
+            </span>
+          </p>
+        
+        <button class="bg-[#3C8067] flex items-center text-white font-Montserrat font-semibold p-4 rounded-xl justify-center gap-2 hover:bg-[#1A4031]">
+          <img src="images\icon-cart.svg" alt="cart">
+          <p>Add to Cart</p>
+        </button>
+          
+ 
+        
+      </div>
+    </div>
+  </main>
+
+  <div class="attribution hidden">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</body>
+</html>
