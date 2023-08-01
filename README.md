@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-Site Link: https://frontend-mentor-results-summary-component-solution-kohi.vercel.app/?vercelToolbarCode=EAKTJ_L-js77yq6
+Site Link: https://product-preview-card-component-main-solution-eight.vercel.app
 
 ### Built with
 
